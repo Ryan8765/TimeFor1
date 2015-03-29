@@ -69,11 +69,23 @@ a {
 	text-decoration: underline;
 }
 
+#contact .underline:hover {
+	color: #55FC01;
+}
+
+.unbold {
+	font-weight: 400; 
+}
+
 /* Id's
 =====================================*/
 
 #join {
 	margin-top:150px;
+}
+
+#join:hover {
+	color: #55FC01;
 }
 
 #app-description {
@@ -90,6 +102,8 @@ a {
 #contact a{
 	color:white;
 }
+
+
 
 /* MailChimp Form Edits
 =====================================*/
@@ -123,6 +137,8 @@ div#mc_embed_signup {
 
 #mc_embed_signup form input {
 	border-radius:5px;
+	font-weight:bold;
+	font-size:100% !important;
 }
 
 
